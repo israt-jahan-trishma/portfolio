@@ -1,0 +1,134 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color:  #005249;
+      color: hsl(0, 0%, 100%);
+    }
+
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 40px;
+      background-color: #75957B;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #F0716;
+    }
+    .home-link {
+    color: #071e4f;
+    font-weight: bold;
+    font-size: 18px;
+    }
+    .about-link {
+    color:#fff;
+    font-weight: bold;
+    font-size: 18px;
+    }
+
+    .skill-link {
+     color: #05058f;
+     font-weight: bold;
+     font-size: 18px;
+     }
+
+    .home-link:hover {
+     color: #ff2600;
+    }
+    .about-link:hover {
+    color: #ff2600;
+    }
+
+    .skill-link:hover {
+     color: #ff1500;
+    }
+
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .nav-links a.contact {
+      background: #ff4c29;
+      padding: 6px 15px;
+      border-radius: 6px;
+    }
+
+   
+    .contact-section {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .contact-section img {
+      width: 180px;
+      height: 180px;
+      border-radius: 15px;
+      border: 4px solid  #F07167;;
+      margin-bottom: 20px;
+  
+    }
+
+    .contact-section h1 {
+      color: #F07167;
+      margin-bottom: 20px;
+      font-weight: bold;
+      
+    }
+
+    .contact-form {
+      max-width: 400px;
+      margin: auto;
+      text-align: left;
+      font-weight: bold;
+    }
+    .contact-form label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 6px;
+    }
+
+    .contact-form button {
+      margin-top: 10px;
+			padding: 10px 25px;
+			background: #d74e44;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+      font-weight: bold;
+    }
+
+    footer {
+    justify-content: space-between;
+    background:  #75957B;
+    font-size: 18px;
+    display:flex ;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 6px 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+
+}

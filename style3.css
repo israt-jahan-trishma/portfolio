@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #005249;
+  color: #fff;
+  line-height: 1.6;
+  
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color:  #75957B;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.logo {
+  color: #F0716;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.home-link {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.about-link {
+  color:hsl(240, 17%, 86%);
+  font-weight: bold;
+  font-size: 20px;
+}
+.skill-link {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.contact-btn {
+  background: #F07167;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.contact-btn:hover {
+  background: #ff4c29;
+}
+.home-link:hover {
+  color: #ff2600;
+}
+.about-link:hover {
+  color: #ff2600;
+}
+.skill-link:hover {
+  color: #ff1500;
+}
+
+.about-section {
+  display: flex;
+  margin-top: 150px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.about-box {
+  display: flex;
+  max-width: 800px;
+  gap: 20px;
+  align-items: center;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 25px #75957B;
+
+}
+.about-text{
+    flex: 2;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about-text h1 {
+  font-size: 30px;
+}
+
+
+.image{
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.image img {
+  width: 180px;
+  height: 180px;
+  border-radius: 15px;
+  border: 3px solid  #F07167;
+  box-shadow: 0 0 20px #F07167;
+}
+
+
+footer {
+    justify-content: space-between;
+    background: #75957B;
+    font-size: 18px;
+    display:flex ;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+
+}

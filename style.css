@@ -1,0 +1,146 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #005249;
+  color: #fff;
+  line-height: 1.6;
+}
+.logo {
+  color: #F0716;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #75957B;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.home-link {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.about-link {
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.skill-link {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+ 
+.contact-btn {
+  background:  #F07167;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.home-link:hover {
+  color: #ff2600;
+}
+
+.skill-link:hover {
+  color: #ff1500;
+}
+.about-link:hover {
+  color: #ff2600;
+}
+.contact-btn:hover {
+  background: #373030;
+  color: #ff4c29;
+}
+.social-icons{
+  margin-top: 20px;
+}
+.social-icons a {
+  color: white;
+  margin: 0 9px;
+  font-size: 28px;
+  transition: 0.3s;
+}
+.social-icons:hover{
+  color: #60a5fa;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 10% 60px;
+  min-height: 80vh;
+}
+
+
+.text h1 {
+  font-size: 60px;
+  max-width: 50%;
+}
+
+.text h1 span {
+  color: #F07167;
+}
+
+.text p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.highlight {
+  color:  #F07167;;
+  font-weight: bold;
+}
+.profile-pic img {
+  width: 280px;
+  height: 280px;
+  border-radius: 15px;
+  border: 3px solid  #F07167;
+  box-shadow: 0 0 20px #F07167;
+  object-fit: cover;
+  margin : 25px;
+  
+}
+
+footer {
+  justify-content: space-between;
+  background: #75957B;
+  font-size: 18px;
+  display:flex ;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 18px;
+  box-sizing: border-box;
+  font-weight: bold;
+
+}
