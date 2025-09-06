@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>portfolio</title>
-  <link rel="stylesheet" href="style2.css";
-  
+  <link rel="stylesheet" href="style2.css">
 </head>
 <body>
 
@@ -23,20 +22,25 @@
   <div class="contact-section">
     <img src="image.jpg" alt="Profile">
     <h1>Let’s Have a Chat</h1>
-    <form class="contact-form">
+
+   
+    <form class="contact-form" action="https://formsubmit.co/trishmaisratjahan@gmail.com" method="POST" target="_blank">
+  
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://israt-jahan-trishma.github.io/portfolio/thankyou.html">
+
       <label>Name</label>
-      <b><input type="text" placeholder="Your Name:"></b>
+      <b><input type="text" name="name" placeholder="Your Name:" required></b>
 
       <label>Email</label>
-      <b><input type="email" placeholder="Your Email:"></b>
+      <b><input type="email" name="email" placeholder="Your Email:" required></b>
 
       <label>Message</label>
-      <b><textarea rows="4" placeholder="Your Message:"></textarea></b>
+      <b><textarea rows="4" name="message" placeholder="Your Message:" required></textarea></b>
 
       <b><button type="submit">Send</button></b>
     </form>
   </div>
-
 
   <footer>
     <p>&copy; 2025 My Website</p>
