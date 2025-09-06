@@ -23,7 +23,7 @@ body {
   z-index: 1000;
 }
 .logo {
-  color: #F0716;
+  color: white;
   font-size: 22px;
   font-weight: bold;
 }
@@ -81,14 +81,16 @@ body {
   margin-top: 150px;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 20px;
 }
 .about-box {
   display: flex;
-  max-width: 800px;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 900px;
   gap: 20px;
-  align-items: center;
-  padding: 30px 40px;
+  align-items: flex-start;
+  padding: 30px ;
   border-radius: 12px;
   box-shadow: 0px 5px 25px #75957B;
 
@@ -111,8 +113,8 @@ body {
    align-items: center;
 }
 .image img {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   border-radius: 15px;
   border: 3px solid  #F07167;
   box-shadow: 0 0 20px #F07167;
@@ -142,14 +144,8 @@ footer {
     padding: 80px 20px;
   }
 
-  .text h1 {
-    font-size: 32px;
-    max-width: 100%;
-  }
-
-  .text p {
+  .about-text{
     font-size: 16px;
-    max-width: 100%;
   }
 
   .profile-pic img,

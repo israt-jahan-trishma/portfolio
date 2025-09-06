@@ -21,7 +21,7 @@ body {
 
 
 .logo {
-  color: #F0716;
+  color: #Fff;
   font-size: 22px;
   font-weight: bold;
 }
@@ -68,22 +68,18 @@ body {
 .about-link:hover {
   color: #ff2600;
 }
-
-.header {
-  text-align: center;
-  padding: 47px 20px;
-}
-
-.header h1 {
-  font-size: 38px;
+.skills-section h1{
+  margin-bottom: 40px;
+  font-size: 36px;
 }
 
 .highlight {
   color: #F07167;
 }
 .skills-section {
-  margin: 40px auto;
+  margin: 20px auto;
   max-width: 1000px;
+  text-align: center;
 }
 
 
@@ -117,16 +113,17 @@ body {
   font-weight: bold;
 }
 .experience-section {
-  margin: 40px auto;
+  margin: 60px auto;
   max-width: 1000px;
   text-align: center;
 }
 .experience-section h1 {
-  margin-bottom: 25px;
-  font-size: 40px;
+  margin-bottom: 40px;
+  font-size: 36px;
 }
 .experience-section highlight {
   color: #F07167;
+
 }
 
 .experience-container {
@@ -167,7 +164,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 20px 20px;
+    padding: 20px;
     box-sizing: border-box;
     font-weight: bold;
 
