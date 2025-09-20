@@ -16,9 +16,3 @@ You can see it live here:
 
 ---
 
-## How it’s built
-
-- *HTML* for the structure  
-- *CSS* for the design and layout  
-
----
